@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffafe4, #2a5298);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.bandera {
+    display: flex;
+    width: 650px;
+    height: 320px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+.color, .blanco {
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+}
+
+#verde {
+    background: rgb(0,128,0);
+}
+
+#rojo {
+    background: rgb(128,0,0);
+}
+
+.blanco {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blanco img {
+    width: 80%;
+}
+
+.textoColor {
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.controles {
+    margin-top: 30px;
+}
+
+.controlGrupo {
+    margin: 10px;
+}
+
+input[type=range] {
+    width: 260px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 16px;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+.blancoTexto {
+    color: black;
+    text-shadow: none;
+}
